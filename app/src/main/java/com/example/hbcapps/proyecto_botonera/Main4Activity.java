@@ -20,7 +20,8 @@ public class Main4Activity extends AppCompatActivity {
         Corki.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MediaPlayer mp = new MediaPlayer.create(Main4Activity.class, R.raw.Corki);
+                MediaPlayer mp = MediaPlayer.create(Main4Activity.this,R.raw.corki);
+                mp.start();
             }
         });
     }

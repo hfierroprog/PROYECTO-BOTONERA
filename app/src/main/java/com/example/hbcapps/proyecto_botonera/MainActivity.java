@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btnBastian;
     private Button btnCesar;
+    private Button btnHector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnBastian = (Button) findViewById(R.id.btnBastian);
         btnCesar = (Button) findViewById(R.id.btnCesar);
+        btnHector = (Button) findViewById(R.id.btnHector);
 
         btnBastian.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Main3Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnHector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Main4Activity.class);
                 startActivity(intent);
             }
         });
