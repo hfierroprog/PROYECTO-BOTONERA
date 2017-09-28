@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btnCuchillo = (Button) findViewById(R.id.btncuchillo);
 
         System.out.print("asdhaksjhdkasjhd");
+        System.out.println("100200loqueqray");
 
         btnCuchillo.setOnClickListener(new View.OnClickListener() {
             @Override
