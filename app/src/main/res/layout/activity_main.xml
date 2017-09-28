@@ -15,20 +15,20 @@
 
     <Button
         android:id="@+id/btnBastian"
-        android:layout_width="319dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FF4081"
         android:text="Botonera Bastian" />
 
     <android.support.v4.widget.Space
         android:id="@+id/space"
-        android:layout_width="321dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.07" />
+        android:layout_weight="0.06" />
 
     <Button
         android:id="@+id/btnCesar"
-        android:layout_width="319dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#FF4081"
@@ -36,7 +36,7 @@
 
     <Button
         android:id="@+id/btnHector"
-        android:layout_width="319dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:background="#FF4081"
