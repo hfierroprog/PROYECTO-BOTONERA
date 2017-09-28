@@ -9,12 +9,28 @@
     android:paddingRight="30dp"
     android:paddingLeft="30dp"
     android:orientation="vertical"
-    tools:context="com.example.hbcapps.proyecto_botonera.MainActivity">
+    android:background="#3F51B5"
+    tools:context="com.example.hbcapps.proyecto_botonera.MainActivity"
+    android:weightSum="1">
 
     <Button
         android:id="@+id/btnBastian"
         android:layout_width="319dp"
         android:layout_height="wrap_content"
+        android:background="#FF4081"
         android:text="Botonera Bastian" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07" />
+
+    <Button
+        android:id="@+id/btnCesar"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#FF4081"
+        android:text="BOTONERA CESAR" />
 
 </LinearLayout>
