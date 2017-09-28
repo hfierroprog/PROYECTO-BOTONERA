@@ -8,12 +8,13 @@
     android:paddingBottom="30dp"
     android:paddingRight="30dp"
     android:paddingLeft="30dp"
+    android:orientation="vertical"
     tools:context="com.example.hbcapps.proyecto_botonera.MainActivity">
 
     <Button
-        android:id="@+id/btncuchillo"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnBastian"
+        android:layout_width="319dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="cuchillo" />
+        android:text="Botonera Bastian" />
+
 </LinearLayout>
