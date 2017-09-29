@@ -21,6 +21,7 @@ public class Main4Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MediaPlayer mp = MediaPlayer.create(Main4Activity.this,R.raw.corki);
+                mp.stop();
                 mp.start();
             }
         });
