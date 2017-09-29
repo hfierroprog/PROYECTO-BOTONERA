@@ -9,42 +9,42 @@
     tools:context="com.example.hbcapps.proyecto_botonera.Main3Activity">
 
     <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnGallo"
+        android:layout_width="164dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Gallo"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="3dp" />
 
     <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnCaballo"
+        android:layout_width="164dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Caballo"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="60dp" />
 
     <Button
-        android:id="@+id/btn3"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnPerro"
+        android:layout_width="161dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Perro"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="121dp" />
 
     <Button
-        android:id="@+id/btn4"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnLeon"
+        android:layout_width="162dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Leon"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="185dp" />
 
     <Button
-        android:id="@+id/btn5"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnVaca"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Vaca"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="244dp" />
 </LinearLayout>
