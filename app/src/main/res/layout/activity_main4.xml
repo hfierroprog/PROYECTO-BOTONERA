@@ -5,30 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    tools:context="com.example.hbcapps.proyecto_botonera.Main4Activity">
+    android:padding="10dp"
+    tools:context="Main4Activity">
 
-    <Button
-        android:id="@+id/btnCorki"
+    <GridView
+        android:id="@+id/gridview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CORKI" />
-
-    <Button
-        android:id="@+id/btnEkko"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="EKKO" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_height="match_parent"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        />
 </LinearLayout>

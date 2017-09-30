@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="120dp">
+
+    <ImageButton
+        android:id="@+id/imgbtnfoto"
+        android:layout_width="74dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/txtchamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+</LinearLayout>
