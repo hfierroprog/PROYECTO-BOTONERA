@@ -7,7 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class Main3Activity extends AppCompatActivity {
     private Button Gallo;
@@ -22,10 +25,22 @@ public class Main3Activity extends AppCompatActivity {
     private MediaPlayer mpLeon;
     private MediaPlayer mpVaca;
 
+    private ArrayList<ElementosGUI> Elementos;
+    private GridView gridView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
+
+        gridView =(GridView) findViewById(R.id.gridview);
+
+        Elementos = new ArrayList<ElementosGUI>();
+        Elementos.add(new ElementosGUI(R.drawable.boton, "Gallo",R.raw.gallo));
+        Elementos.add(new ElementosGUI(R.drawable.boton, "Caballo",R.raw.caballo));
+        Elementos.add(new ElementosGUI(R.drawable.boton, "Perro",R.raw.perro));
+        Elementos.add(new ElementosGUI(R.drawable.boton, "Leon",R.raw.leon));
+        Elementos.add(new ElementosGUI(R.drawable.boton, "Vaca",R.raw.vaca));
 
         Gallo = (Button) findViewById(R.id.btnGallo);
         Caballo = (Button) findViewById(R.id.btnCaballo);
@@ -148,5 +163,9 @@ public class Main3Activity extends AppCompatActivity {
                 });
             }
         });
+
+        Adaptador adaptador = new Adaptador(this,R.layout.gridviewgui,Elementos);
+
+        gridView.setAdapter(adaptador);
     }
 }
